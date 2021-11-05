@@ -281,4 +281,19 @@ p{
     .client > .client-name > p{
         color:hsl(210, 4%, 67%);
     }
+    .galery-box{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .galery-wrapper{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        height: 100%;
+    }
+    .galery-wrapper .galery{
+        width: 100%;
+    }
 /*CSS MAIN END*/
