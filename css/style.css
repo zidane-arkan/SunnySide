@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700;900&display=swap');
+/*CSS RESET START*/
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+    */
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+/*CSS RESET END*/
+
+/*CSS BODY START*/
+body{
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+h1,h4,h5{
+    font-family: 'Fraunces', serif;
+    font-size: 62px;
+    font-weight: 900;
+    color: hsl(0,0%,100%);
+    letter-spacing: 10px;
+}
+p,a,button{
+    font-family:'Barlow',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+p{
+    line-height: 30px;
+}
+/*CSS BODY END*/
+
+/*CSS HEADER START*/
+    header{
+        display: block;
+        max-width: 99vw;
+        height: 100vh;
+        box-sizing: border-box;
+        background-image: url('../images/desktop/image-header.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
+    }
+    header   a{
+        color: hsl(0, 0%, 100%);
+    }
+    #navbar{
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+        height: 10%;
+        box-sizing: border-box;
+       
+    }
+    #navbar > nav{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar > nav > .nav-custom{
+        display: flex;
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 30px 0 6px 0px;
+    }
+    .title-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .title-list > li{
+        padding-right: 72px;
+    }
+    header > .title-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50%;
+        margin-top: 4%;
+    }
+    .btn-contacts{
+        border: 0;
+        border-radius: 120px;
+        padding: 15px 25px 15px 25px;
+       
+    }
+    .btn-contacts > a{
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Fraunces', serif;
+        color: hsl(212, 27%, 19%) !important;
+    }
+/*CSS HEADER END*/
+
+/*CSS MAIN START*/
+    h3{
+        font-family: 'Fraunces', serif;
+        font-size: 52px;
+        font-weight: bold;
+    }
+    main{
+        display: inline-block;
+        width: 99vw;
+        height: auto;
+    }
+    main > .content{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    main > .content >.content-box{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items:inherit; */
+    }
+    .content-box > .box{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
+    .content-box .box-2{
+        flex-direction: row-reverse;
+    }
+    .col-6{
+        width: 100%;
+        height: 100%;
+    }
+    .col-6 > .col-box{
+        padding: 190px 220px;
+    }
+    .col-6 > .img-content{
+        width: 100%;
+        height: auto;
+    }
+    .col-box > h3,.col-box > p{
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+    .col-box > p{
+        line-height: 30px;
+    }
+    
+    .content-box > .box-3{
+        display: flex;
+        justify-items: center;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .img-content-box{
+        width: 100%;
+        height: 100%;
+    }
+    .col-box-img{
+        position: relative;
+    }
+    .box-3{
+        box-sizing: border-box;
+    }
+    .box3-content{
+        position: absolute;
+        top: 47%;
+        text-align: center;
+        padding: 100px 265px;
+    }
+    .box3-content > h3{
+        font-size: 48px;
+        padding-bottom: 30px;
+    }
+    .content-graphic h3,.content-graphic p {
+        color:  hsl(167, 40%, 24%);
+    }
+    .content-photo > h3, .content-photo > p{
+        color:  hsl(198, 62%, 26%);
+    }
+    .content-client{
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 95vh;
+        padding: 120px 0;
+    }
+    #title-client > h4{
+        color: hsl(210,4%,67%);
+        font-size: 28px;
+    }
+    #title-client{
+        padding-bottom: 75px;
+    }
+    .client-box{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .client-box > .client{
+        width: 33.33%;
+        padding: 0 52px;
+    }
+    .client-box img{
+        border-radius: 120px;
+    }
+    .client > p {
+        padding: 26px 80px;
+    }
+    .client > .client-name > h5{
+        font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 0 !important;
+        color: hsl(212, 27%, 19%);
+        padding: 30px 0 12px 0;
+    }
+    .client > .client-name > p{
+        color:hsl(210, 4%, 67%);
+    }
+/*CSS MAIN END*/
