@@ -297,40 +297,48 @@ p{
         width: 100%;
     }
 /*CSS MAIN END*/
+
 /*CSS Footer Start*/
-footer{
-    display: flex;
-    width: 100%;
-    height: 50vh;
-    background-color: hsl(168, 34%, 41%);
-}
-.footer-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-#footer-logo{
-    padding: 140px 0 0 0;
-}
-#footer-logo-color{
-    fill:black;
-}
-.footer-list{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.footer-list > li{
-    justify-content: center;
-    align-items: center;
-    padding: 0px 40px;
-}
-.footer-list > li > p{
-    font-size: 22px;
-}
-.footer-list-1{
-    padding-bottom: 80px;
-}
+    footer{
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        background-color: hsl(167, 44%, 70%);
+    }
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    #footer-logo{
+        padding: 140px 0 0 0;
+    }
+    .footer-logo-color{
+        fill:hsl(167, 40%, 24%);
+    }
+    .footer-list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer-list > li > p{
+        color: hsl(168, 34%, 41%);
+        font-size: 22px;
+    }
+    .footer-list-1{
+        padding-bottom: 80px;
+    }
+    .footer-list-1 > li{
+        justify-content: center;
+        align-items: center;
+        padding: 0px 40px;
+    }
+    .footer-list-2 > li{
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+    }
+   
 /*CSS Footer End*/
