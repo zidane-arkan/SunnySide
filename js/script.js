@@ -1,5 +1,5 @@
 //Function
-function scroll(){
+function scrollDown(){
     contentBox.scrollIntoView();
 }
 //Get Arrow Element
@@ -8,4 +8,4 @@ let arrowDown = titleBox.querySelector("#arrow-icon").getElementsByClassName("ar
 //Get Content Box Element
 let contentBox = document.getElementsByClassName("content")[0].querySelector("#content-box");
 //Function Arrow
-arrowDown.addEventListener('click',scroll );
+arrowDown.addEventListener('click',scrollDown );
