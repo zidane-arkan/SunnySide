@@ -77,6 +77,11 @@ p,a,button{
     font-weight: 600;
     color: black;
     text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+button,a {
+    cursor: pointer;
 }
 p{
     line-height: 30px;
@@ -151,11 +156,12 @@ p{
     .btn-contacts{
         border: 0;
         border-radius: 120px;
-        cursor: pointer;
+        
         padding: 15px 25px 15px 25px;
         font-size: 18px;
         font-weight: 600;
         font-family: 'Fraunces', serif;
+        background-color: white;
         color: hsl(212, 27%, 19%) !important;
         transition: 0.5s;
     }
@@ -173,7 +179,7 @@ p{
         margin-top: 4%;
     }
     #arrow-icon > .arrow-down{
-        cursor:pointer;
+        cursor: pointer;
         animation: upDown 1s infinite;
     }
 /*CSS HEADER END*/
