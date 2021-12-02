@@ -219,10 +219,19 @@ p{
         position: relative;
         z-index: 0;
     }
-    .link-learn::after{
+    #link-learn-1::after{
         background-color: hsla(51, 100%, 49%, 0.2);
     }
-    .bgYellow::after{
+    #link-learn-2::after{
+        background-color: hsla(30, 100%, 49%, 0.2);
+    }
+    #link-learn-1:hover::after{
+        background-color: hsl(51, 100%, 49%);
+    }
+    #link-learn-2:hover::after{
+        background-color: hsl(33,100%,49%);
+    }
+    .link-learn::after,.link-lear::after{
         content: "";
         position: absolute;
         width: 110px;
@@ -234,9 +243,7 @@ p{
         z-index: -1;
         transition: 0.5s;
     }
-    .bgYellow:hover::after{
-        background-color: hsl(51, 100%, 49%);
-    }
+
     #content-box > .box-2{
         flex-direction: row-reverse;
     }
